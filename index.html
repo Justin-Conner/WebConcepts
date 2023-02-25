@@ -15,18 +15,38 @@ In addition to specifying the HTML version, the <!DOCTYPE> declaration can also 
     <style>
       /* CSS styles go here if you want to use inline styling see https://www.w3schools.com/html/html_css.asp*/
     </style>
+    <!--if you want to include external CSS in another seperate file(this is recommended as a good habit) use the method below-->
+    <link rel="stylesheet" href="style.css">
+    <!-- this should be within your "head" tags to take effect-->
+    <!--this is the navbar section generally this will be on the top of you webpage but can be placed inside other element sections(if you really want to lol)-->
+        <!--open the style.css file (in your code editor) and delete the contents (you can use the "ctrl + Z"  command to undo this in a minute. Save the file then hit refresh on your browser. What happens?-->
+
+    <nav>
+      <ul id="nav-left">
+        <li><a href="metadata.html">Document metadata</a></li>
+        <li><a href="link.html">Link element</a></li>
+        <li><a href="meta_element.html">Meta element</a></li>
+      </ul>
+      <ul>
+        <li><a href="Style_element.html">Style element</a></li>
+        <li><a href="HTML_ections.html">HTML ections</a></li>
+        <li><a href="Grouping_content.html">Grouping content</a></li>
+      </ul>
+      <ul id="nav-left">
+        <li><a href="text_semantics.html">Text-level semantics</a></li>
+        <li><a href="more_on_links.html">Links</a></li>
+        <li><a href="link_types.html">Link types</a></li>
+      </ul>
+    </nav>
   </head>
   <body>
     <header>
-      <h1>This section is called an "H1 header there are many sizes to choose from</h1>
+      <h1>This section is called an "H1" header there are many sizes to choose from</h1>
           <h2>H2<h2>
-      <nav>
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+            <h3>H3</h3>
+            <h4>H4</h4>
+            <h5>H5</h5>
+            <h6>H6</h6>
     </header>
     <main>
       <section>

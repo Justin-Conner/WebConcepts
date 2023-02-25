@@ -1,0 +1,41 @@
+/* In this code, we've added a display: flex and justify-content: space-between property to the nav selector to make sure all the nav elements are in a single row and are spaced evenly between the left and right edges of the screen.
+
+We've also added the margin: 0 and padding: 0 properties to the nav ul element to remove any default margins or padding.
+
+To style the #nav-left and #nav-right elements differently, we've added the justify-content: flex-start and justify-content: flex-end properties, respectively.
+
+Finally, we've added some styles to the nav ul li a selector to change the color and font weight of the links in the navigation.
+
+With these changes, all the nav elements should be in a single row, and the id selectors should still be used to apply special styling to the #nav-left and #nav-right elements.*/
+nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #nav-left {
+    justify-content: flex-start;
+  }
+  
+  #nav-right {
+    justify-content: flex-end;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  
