@@ -11,7 +11,9 @@ While opening a file  will allow you to see it's contents if you want to get you
 - Step 1 is to clone this repo so that you have it locally on your PC.
   -You need to fork the repo to have a copy on your GitHub account you can find instructions on that here [fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo) 
   - follow this link to get the step by step procedure on how to clone from GitHub [Clone a repo](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
-Once you have a copy on your local machine it is easy to right click on a file with an HTML extension and open in your choice of browser or code editor.
-Another option is to click on the link provided in the HTML file that will take you to an in browser coding experience at [Replit website](https://replit.com/). If you can't wait to get started this is the fastest option and it also allows you to "push" to your GitHub with a few clicks.
-Another option is to code in a code editor such as Visual Studio Code you can find instructions on how to get started with that here [Visual Studio Code](https://code.visualstudio.com/)
+Once you have a copy on your local machine you have some options on how to start coding.
+-It is easy to right click on a file with an HTML extension and open in your choice of browser or code editor.
+-Another option is to click on the link provided in the HTML file that will take you to an in browser coding experience at [Replit website](https://replit.com/). If you can't wait to get started this is the fastest option and it also allows you to "push" to your GitHub with a few clicks.
+=Another option is to code in a code editor such as Visual Studio Code. 
+    -You can find instructions on how to get started. with that here [Visual Studio Code](https://code.visualstudio.com/)
 That's the quick and dirty on your Web Dev journey. TO THE MOON!
