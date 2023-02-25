@@ -19,7 +19,7 @@ A good idea is to have a set of social media accounts at your beck and call. Why
 -youtube (when you learn something new make a video to reinforce that learning and maybe help some else out?)
 -Godaddy (you want to be a Dev? You need a website of course. Buy a domain and update your site with new info frequently)
 
-For more detail on social media and a good strategy for success see my social_media README.md file.
+For more detail on social media and a good strategy for success see my [social_media README.md](https://github.com/Justin-Conner/WebConcepts/blob/staging/social_media.md) file.
 
 While opening a file  will allow you to see it's contents if you want to get your hands dirty follow steps below.
 - Step 1 is to clone this repo so that you have it locally on your PC.
