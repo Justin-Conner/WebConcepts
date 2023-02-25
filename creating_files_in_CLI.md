@@ -14,3 +14,4 @@ If you have installed [Visual Studio Code](https://code.visualstudio.com/) you c
 -use the arrow to go back to and delete "touch"
 now type "code" and leave a space between that and the file name
 -press enter and your file will open in "VS Code".
+-As an alternative if younwant to open all files in a directory to VS Code type "code ."
