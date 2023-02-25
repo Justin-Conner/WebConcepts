@@ -18,6 +18,8 @@ A good idea is to have a set of social media accounts at your beck and call. Why
 -Google (seems obvious but if you don't have a gmail you are missing out. Free drive for backups, word processing and much more)
 -youtube (when you learn something new make a video to reinforce that learning and maybe help some else out?)
 -Godaddy (you want to be a Dev? You need a website of course. Buy a domain and update your site with new info frequently)
+-Bazarart (an amazing app for your phone to edit photos)
+-Graphite (another great phot editing app)
 
 For more detail on social media and a good strategy for success see my [social_media README.md](https://github.com/Justin-Conner/WebConcepts/blob/staging/social_media.md) file.
 
