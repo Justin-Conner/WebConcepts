@@ -1,0 +1,8 @@
+To sync a Git branch with the main branch and add files from main to the sub-branch, you can use the following steps:
+
+-git checkout sub-branch
+-git pull origin main
+-git merge main
+-git cherry-pick main <file-path>
+-git commit -m "Sync sub-branch with main branch and add files"
+-git push origin sub-branch
