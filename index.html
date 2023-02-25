@@ -1,24 +1,57 @@
+<!--The <!DOCTYPE html> declaration is an HTML tag that is used to specify the version of HTML that a web page is written in. The <!DOCTYPE> tag is not an HTML element, but rather an instruction to the web browser that indicates the document type and version.
+
+The <!DOCTYPE html> tag is used to specify that the web page is written in the latest version of HTML, which is HTML5. This tag is typically placed at the very beginning of an HTML document, before the <html> tag.
+
+The purpose of the <!DOCTYPE html> tag is to tell web browsers how to interpret and render the HTML code on the page. Different versions of HTML have different syntax and features, so it is important to specify the correct version of HTML to ensure that the web page is displayed correctly.
+
+In addition to specifying the HTML version, the <!DOCTYPE> declaration can also specify other information, such as the character encoding used in the document, which can affect how the web browser displays the content. -->
 <!DOCTYPE html>
-<html>
-<head>
-      <title>Button click handler</title>
-   <script>
-         function youRang() {
-            document.getElementById("main-text").innerHTML += "you rang...";
-            console.log("you rang...");
-         }
-   </script>
-</head>
-<body>
-   <h1>demo header</h1>
-   <p id="main-text" class="orange" style="font-weight: bold;">
-         a bunch of really valuable text...
-   </p>
-   <button onclick="youRang();">Ring Bell</button>
-<button onclick="alert('You clicked me!')">Click me</button>
-
-<button ondblclick="alert('You double-clicked me!')">Double-click me</button>
-
-<button oncontextmenu="alert('You right-clicked me!'); return false;">Right-click me</button>
-</body>
+<!--a great resource for all things web devolopment check out https://www.w3schools.com/ or https://education.launchcode.org/coding-prep/modules/html-and-css-intro/1/ -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Template</title>
+    <style>
+      /* CSS styles go here if you want to use inline styling see https://www.w3schools.com/html/html_css.asp*/
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>This section is called an "H1 header there are many sizes to choose from</h1>
+          <h2>H2<h2>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Section 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lectus sed turpis sodales congue non non ipsum. Fusce euismod eros vitae nulla hendrerit, a efficitur lorem tincidunt. Nulla lacinia velit ex, eu venenatis metus hendrerit sed. In hac habitasse platea dictumst.</p>
+        <img src="https://via.placeholder.com/300" alt="Placeholder image">
+      </section>
+      <section>
+        <h2>Section 2</h2>
+        <ul>
+          <li>List item 1</li>
+          <li>List item 2</li>
+          <li>List item 3</li>
+        </ul>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 My Website</p>
+    </footer>
+  </body>
 </html>
